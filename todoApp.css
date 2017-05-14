@@ -1,0 +1,147 @@
+.header1{
+    height: 100px;
+    background-color: #D76F30;
+    box-shadow: 11px 8px 12px grey;
+}
+.taskBtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #27133D;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.taskBtn:hover{
+    cursor: pointer;
+}
+.header2{
+    width: 81%;
+    height: 50px;
+    background-color: #50B4BC;
+    border-radius: 0px 0px 10px 10px;
+    left: 250px;
+    margin: 0 auto;
+}
+.btn2{
+    margin-left: 15px;
+    width: 100px;
+    margin-top: 7px;
+    background-color: orange;
+    color: white;
+    position: relative;
+    left: 20px;
+}
+.taskBox{
+    width: 100%;
+    height: 350px;
+    background-color: #F9E362;
+    top: -50px;
+    position: relative;
+    z-index: +1;
+    padding: 20px;
+}
+textarea{
+    width: 100%;
+    height: 70px;
+    top: 30px;
+    font-size: 18px;
+}
+#p1{
+    background-color: #CC8900;
+    width: 100%;
+    position: relative;
+    top: 52px;
+}
+#s1{
+    position: relative;
+    left: 559px;
+    color: white;
+    font-size: 15px;
+}
+.btn3{
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 470px;
+    top: 155px;
+    margin-left: 10px;
+}
+body{
+    background-color: #dee1e5;
+}
+.outerDiv{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    box-shadow: 10px 6px 10px grey;
+    background-color: green;
+    margin-top: 18px;
+
+}
+.innerDiv{
+    width: 92%;
+    height: 50px;
+    margin-left: 91px;
+    background-color: white;
+    padding: 5px;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+.editDiv{
+    width: 66%;
+    height: 50px;
+    background-color: #D5DB7D;
+    position: relative;
+    left: 200px
+}
+input[type=checkbox] {
+    top: -34px;
+    left: 38px;
+}
+.btn4{
+    width: 46px;
+    height: 48px;
+    padding: 2px;
+    position: relative;
+    left: 326px;
+    margin-left: 20px;
+}
+.innerDiv h3{
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

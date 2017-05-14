@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>todo app</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="todoApp.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script type="text/javascript" src="https://code.angularjs.org/1.6.1/angular-route.min.js"></script>
+</head>
+<body>
+
+<div class="row header1 container-fluid">
+    <div class="col-xs-12">
+        <div class="row">
+        <button class="col-xs-1 col-xs-offset-6 taskBtn" >+</button>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row header2">
+        <div class="col-xs-12 text-center">
+            <button class="btn btn-default btn2">All</button>
+            <button class="btn btn-default btn2">Active</button>
+            <button class="btn btn-default btn2">Completed</button>
+        </div>
+    </div>
+
+
+    <div class="row taskBox">
+        <div class="col-xs-12">
+            <textarea type="text" maxlength="140"></textarea>
+            <span id="charRem"></span>
+            <p id="p1"><span id="s1">Task Color</span></p>
+            <button class="btn btn3 addBtn">Add Task</button>
+            <button class="btn btn3 cancelBtn">Cancel</button>
+        </div>
+    </div>
+
+    <div id="prntDiv">
+        <!--Tasks are added here-->
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="todoApp.js"></script>
+</body>
+</html>
